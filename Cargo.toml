@@ -1,0 +1,14 @@
+[package]
+name = "pascals_nth"
+version = "0.1.0"
+authors = ["Jeremy J. Miller <jm@chef.io>"]
+edition = "2018"
+
+[[bin]]
+name = "pascals_nth"
+doc = false
+path = "src/main.rs"
+
+
+[dependencies]
+structopt = "0.3"
